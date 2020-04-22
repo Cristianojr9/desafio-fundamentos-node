@@ -51,7 +51,6 @@ class TransactionsRepository {
     const transaction = new Transaction({ title, value, type });
 
     this.transactions.push(transaction);
-    console.log(this.transactions);
     return transaction;
   }
 }
